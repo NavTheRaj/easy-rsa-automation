@@ -7,10 +7,10 @@ from email.mime.text import MIMEText
 
 def mail_send(user_name,receiver_mail):
 	subject = "ABOUT SET UP FOR VPN!"
-	sender_email = "replynot1234@gmail.com"
+	sender_email = "" #[PLACE YOUR EMAIL FOR SENDING EMAILS]
 	body=""
 	receiver_email = receiver_mail
-	password = "reply@1234"
+	password = "" #[PLACE YOUR PASSWORD HERE]
 
 	# Create a multipart message and set headers
 	message = MIMEMultipart()
